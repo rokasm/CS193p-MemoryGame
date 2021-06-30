@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40571D02680CAF70035F78E /* EmojiMemoryGameThemeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40571CF2680CAF70035F78E /* EmojiMemoryGameThemeStore.swift */; };
+		E40571D22681B4D90035F78E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40571D12681B4D90035F78E /* Theme.swift */; };
+		E40571D62681E1D50035F78E /* EmojiMemoryGameThemeChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40571D52681E1D50035F78E /* EmojiMemoryGameThemeChooser.swift */; };
+		E40571D82681E1EF0035F78E /* EmojiMemoryGameThemeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40571D72681E1EF0035F78E /* EmojiMemoryGameThemeEditor.swift */; };
 		E423E4742539720900BA9908 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423E4732539720900BA9908 /* MemoryGame.swift */; };
 		E423E476253975D100BA9908 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423E475253975D100BA9908 /* EmojiMemoryGame.swift */; };
 		E448C10A2536E5A4007A696A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448C1092536E5A4007A696A /* AppDelegate.swift */; };
@@ -15,13 +19,18 @@
 		E448C1102536E5A7007A696A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448C10F2536E5A7007A696A /* Assets.xcassets */; };
 		E448C1132536E5A7007A696A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448C1122536E5A7007A696A /* Preview Assets.xcassets */; };
 		E448C1162536E5A7007A696A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E448C1142536E5A7007A696A /* LaunchScreen.storyboard */; };
-		E45EF0E025B04C3500FDDF43 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF0DF25B04C3500FDDF43 /* Array+Identifiable.swift */; };
-		E45EF0E225B62CCC00FDDF43 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF0E125B62CCC00FDDF43 /* Array+Only.swift */; };
+		E45EF0E025B04C3500FDDF43 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EF0DF25B04C3500FDDF43 /* Extensions.swift */; };
+		E4E442442609439C0015A119 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E442432609439C0015A119 /* Pie.swift */; };
+		E4E44246260946DA0015A119 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E44245260946DA0015A119 /* Cardify.swift */; };
 		E4FF8EE2255EECF200D4F835 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF8EE1255EECF200D4F835 /* Grid.swift */; };
 		E4FF8EE4256196F100D4F835 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF8EE3256196F100D4F835 /* GridLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E40571CF2680CAF70035F78E /* EmojiMemoryGameThemeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameThemeStore.swift; sourceTree = "<group>"; };
+		E40571D12681B4D90035F78E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E40571D52681E1D50035F78E /* EmojiMemoryGameThemeChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameThemeChooser.swift; sourceTree = "<group>"; };
+		E40571D72681E1EF0035F78E /* EmojiMemoryGameThemeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameThemeEditor.swift; sourceTree = "<group>"; };
 		E423E4732539720900BA9908 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		E423E475253975D100BA9908 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		E448C1062536E5A4007A696A /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,8 +41,9 @@
 		E448C1122536E5A7007A696A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E448C1152536E5A7007A696A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E448C1172536E5A7007A696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E45EF0DF25B04C3500FDDF43 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
-		E45EF0E125B62CCC00FDDF43 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		E45EF0DF25B04C3500FDDF43 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E4E442432609439C0015A119 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		E4E44245260946DA0015A119 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		E4FF8EE1255EECF200D4F835 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		E4FF8EE3256196F100D4F835 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E40571D92681E2630035F78E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E448C10D2536E5A4007A696A /* EmojiMemoryGameView.swift */,
+				E40571D52681E1D50035F78E /* EmojiMemoryGameThemeChooser.swift */,
+				E4E44245260946DA0015A119 /* Cardify.swift */,
+				E40571D72681E1EF0035F78E /* EmojiMemoryGameThemeEditor.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E448C0FD2536E5A4007A696A = {
 			isa = PBXGroup;
 			children = (
@@ -68,19 +89,21 @@
 		E448C1082536E5A4007A696A /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				E448C1092536E5A4007A696A /* AppDelegate.swift */,
-				E448C10B2536E5A4007A696A /* SceneDelegate.swift */,
-				E448C10D2536E5A4007A696A /* EmojiMemoryGameView.swift */,
-				E4FF8EE1255EECF200D4F835 /* Grid.swift */,
-				E45EF0DF25B04C3500FDDF43 /* Array+Identifiable.swift */,
-				E4FF8EE3256196F100D4F835 /* GridLayout.swift */,
+				E40571D92681E2630035F78E /* Views */,
+				E40571CF2680CAF70035F78E /* EmojiMemoryGameThemeStore.swift */,
 				E423E475253975D100BA9908 /* EmojiMemoryGame.swift */,
 				E423E4732539720900BA9908 /* MemoryGame.swift */,
-				E45EF0E125B62CCC00FDDF43 /* Array+Only.swift */,
+				E40571D12681B4D90035F78E /* Theme.swift */,
+				E448C1092536E5A4007A696A /* AppDelegate.swift */,
+				E448C10B2536E5A4007A696A /* SceneDelegate.swift */,
+				E4FF8EE1255EECF200D4F835 /* Grid.swift */,
+				E45EF0DF25B04C3500FDDF43 /* Extensions.swift */,
+				E4FF8EE3256196F100D4F835 /* GridLayout.swift */,
 				E448C10F2536E5A7007A696A /* Assets.xcassets */,
 				E448C1142536E5A7007A696A /* LaunchScreen.storyboard */,
 				E448C1172536E5A7007A696A /* Info.plist */,
 				E448C1112536E5A7007A696A /* Preview Content */,
+				E4E442432609439C0015A119 /* Pie.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -120,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Rokas Mikelionis";
 				TargetAttributes = {
 					E448C1052536E5A4007A696A = {
@@ -164,13 +187,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40571D02680CAF70035F78E /* EmojiMemoryGameThemeStore.swift in Sources */,
+				E4E44246260946DA0015A119 /* Cardify.swift in Sources */,
+				E40571D82681E1EF0035F78E /* EmojiMemoryGameThemeEditor.swift in Sources */,
+				E4E442442609439C0015A119 /* Pie.swift in Sources */,
 				E448C10A2536E5A4007A696A /* AppDelegate.swift in Sources */,
+				E40571D62681E1D50035F78E /* EmojiMemoryGameThemeChooser.swift in Sources */,
 				E448C10C2536E5A4007A696A /* SceneDelegate.swift in Sources */,
 				E423E4742539720900BA9908 /* MemoryGame.swift in Sources */,
-				E45EF0E225B62CCC00FDDF43 /* Array+Only.swift in Sources */,
 				E448C10E2536E5A4007A696A /* EmojiMemoryGameView.swift in Sources */,
 				E423E476253975D100BA9908 /* EmojiMemoryGame.swift in Sources */,
-				E45EF0E025B04C3500FDDF43 /* Array+Identifiable.swift in Sources */,
+				E45EF0E025B04C3500FDDF43 /* Extensions.swift in Sources */,
+				E40571D22681B4D90035F78E /* Theme.swift in Sources */,
 				E4FF8EE4256196F100D4F835 /* GridLayout.swift in Sources */,
 				E4FF8EE2255EECF200D4F835 /* Grid.swift in Sources */,
 			);
@@ -216,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -240,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -294,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
